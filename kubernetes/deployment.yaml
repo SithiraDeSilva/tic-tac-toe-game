@@ -17,7 +17,6 @@ spec:
       containers:
       - name: tic-tac-toe
         image: ghcr.io/sithiradesilva/tictactoe-game:sha-a47939aa22ced19fd815689922cb66b11396b4f4
-        #sha256:f70d368f51f6c704aca9865c67436cd4752e878ae01478b643327ef599f66af9
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
